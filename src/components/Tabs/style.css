@@ -1,0 +1,25 @@
+.tabs button {
+  border: none;
+  /* color: #22302b; */
+  font-family: "poppins", serif;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active-btn {
+  background-color: #3c6255;
+  color: #fff;
+}
+
+/* media quries */
+@media (max-width: 1024px) {
+  .tabs button {
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}

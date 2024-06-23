@@ -1,0 +1,52 @@
+.category-section {
+  color: #22302b;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.category-section p {
+  font-family: "poppins", serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.category-section h2 {
+  font-family: "Bitter", serif;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+/* media quaries */
+@media (max-width: 1024px) {
+  .tab-list {
+    gap: 10px;
+  }
+}
+
+/* mobile version */
+@media (max-width: 500px) {
+  .category-section h2 {
+    font-size: 1.2rem;
+  }
+  .category-section p {
+    font-size: 0.9rem;
+  }
+}
